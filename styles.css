@@ -26,6 +26,7 @@
     display: block;
     margin-bottom: 42px;
     font-size: 32px;
+    transition: 0.3s;
 }
 
 /* Button / <Item> -> button */
@@ -40,6 +41,10 @@
     transition:
         background 0.3s,
         color 0.3s;
+}
+
+.emoji.zoomed {
+    transform: scale(2);
 }
 
 .btn:hover {
